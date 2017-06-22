@@ -1,10 +1,11 @@
 <?php 
-
 /*
  * This example shows how to use Rfc Connector with PHP. You need to have
- * the COM extension enabled in php.ini, e.g. 
+ * the COM extension enabled in php.ini, e.g. add
  * 
+ *   extension=c:\path\to\php_com_dotnet.dll
  * 
+ * to your php.ini. The code will only work with 32bit(x86) PHP on Windows. 
  */
 
 $ts0 = microtime(true);

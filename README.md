@@ -38,7 +38,7 @@ foreach($fn->Tables["FLIGHT_LIST"]->Rows as $row)
 
 # Requirements
 
-* With PHP 5.4 and later, you need to enable the COM extension in `php.ini`:
+With PHP 5.4 and later, you need to enable the COM extension in `php.ini`:
 
 ```ini
 # php.ini
@@ -46,7 +46,7 @@ foreach($fn->Tables["FLIGHT_LIST"]->Rows as $row)
 extension=c:\path\to\php_com_dotnet.dll
 ```
 
-* If you are running the example from within a web server, you need to get a free, 
+If you are running the example from within a web server, you need to get a free, 
 temporary evaluation key from [http://rfcconnector.com/order/](http://rfcconnector.com/order/),
 otherwise the program will not work
 
