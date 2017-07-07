@@ -38,6 +38,9 @@ foreach($fn->Tables["FLIGHT_LIST"]->Rows as $row)
 
 # Requirements
 
+This code requires any supported x86 (32-Bit) PHP version on Windows. amd64 (64-Bit) PHP 
+is not yet supported. 
+
 With PHP 5.4 and later, you need to enable the COM extension in `php.ini`:
 
 ```ini
